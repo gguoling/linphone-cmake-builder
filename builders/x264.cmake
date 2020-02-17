@@ -20,9 +20,9 @@
 #
 ############################################################################
 
-lcb_git_repository("git://git.videolan.org/x264.git")
+lcb_git_repository("https://github.com/gguoling/x264.git")
 lcb_git_tag("adc99d17d8c1fbc164fae8319b40d7c45f30314e")
-lcb_external_source_paths("externals/x264")
+lcb_external_source_paths("external/x264")
 lcb_ignore_warnings(YES)
 
 lcb_build_method("autotools")
